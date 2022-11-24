@@ -1,4 +1,4 @@
-# Chronic stress
+# EEG Chronic stress
 
 ##Objectives :
 
@@ -17,8 +17,6 @@ st122876	Aiman Lameesa
 
 ## Limitation :
 
-
 ## Future Work :
-
 
 ## Reference :
