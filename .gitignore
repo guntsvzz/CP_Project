@@ -4,6 +4,8 @@
 
 
 # Project specific ignore
-data/
+data/ch_16_csv_with_target
+data/ch_16_csv
+data/recorded_csv
 	
 
