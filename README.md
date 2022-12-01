@@ -43,6 +43,21 @@ st122876	Aiman Lameesa
     - CNN1D
     - LSTM
 
+## Result :
+- Out of the ML models we trained, Support Vector Machine has higher test accuracy.
+- Generally, When Relative Gamma frequency band is included as a feature, Model testing accuracy is high.
+- Deep Learning Models didn’t result with good accuracy.
+- Accuracy of testing Akkaradet’s dataset
+    - Low accuracy compared to our test dataset
+
+## Conclusion :
+- Hypothesis 1:  Some of the frequency band are more significant
+    - The results show that Relative Gamma has a higher significance in classifying chronic stress
+- Hypothesis 2 : Chronic Stress can be classified based on EEG data
+    - Model accuracy varies with the dataset
+    - Our experiment doesn't completely support this hypothesis.
+
+
 ## Limitation :
  - Bias Stress
  - No Consultant
