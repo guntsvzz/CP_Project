@@ -1,8 +1,18 @@
 # EEG Chronic stress
-This project aims to reproduct Akkaradet Experiment EEG Chronic stress which classify stress and non-stress
-under pre-examination condition
-##Objectives :
-To find feature important and decent model
+This project aims to reproduct Akkaradet Experiment EEG Chronic stress which classify stress and non-stress under pre-examination condition
+## Objectives :
+- To classify chronic stress (stressed and non-stressed) based on EEG and compare it with Perceived Stress Scale (PSS) score test. 
+- To explore feature importance to identify which frequency channels are highly significant in classifying chronic stress.
+
+## Hypothesis : 
+- Chronic Stress can be classified based on EEG data
+- Some of the frequency band are more significant in Chronic Stress classification.
+
+## Assumptions :
+- High PSS scores can indicate chronic stress.
+- EEG data doesn’t vary with personal information such as age, gender, etc.
+
+
 ## Member :
 ```
 st123012	Todsavad Tangtortan
@@ -17,7 +27,7 @@ st122876	Aiman Lameesa
 
 ## Components :
 - 01 ETL
-    - Extraction 32 channels to 16 channels
+    - select 16-channels out of 32-channels
     - notch filter power line
     - filter
 - 02 EDA
@@ -34,8 +44,18 @@ st122876	Aiman Lameesa
     - LSTM
 
 ## Limitation :
- - less samples
+ - Bias Stress
+ - No Consultant
+ - Small Dataset
+
 ## Future Work :
- - Collecting the same participants after post-examination
+ - Recording Post Examination
+    - Collecting the same participants after post-examination
+
 ## Reference :
- - EEG Based Classification of Long-Term Stress Using Psychological Labeling
+- Saeed, S. M. U., Anwar, S. M., Khalid, H., Majid, M., & Bagci, U. (2020). EEG based classification of long-term stress using psychological labeling. Sensors, 20(7), 1886.
+
+- Minguillon, J., Lopez-Gordo, M. A., & Pelayo, F. (2016). Stress assessment by prefrontal relative gamma. Frontiers in computational neuroscience, 10, 101.
+
+- Zhang, Y., Wang, Q., Chin, Z. Y., & Ang, K. K. (2020, July). Investigating different stress-relief methods using Electroencephalogram (EEG). In 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC) (pp. 2999-3002). IEEE.
+
